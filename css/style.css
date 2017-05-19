@@ -1,0 +1,608 @@
+* {
+  margin: 0;
+
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* 	<nav class="topNav">
+		<div class="leftSideTopNav">
+			<div class="trainersVaultDiv"><h6>TRAINERSVAULT</h6></div>
+			<div class="shopAtDiv"><h6>Shop at TRAINERSDIGITAL</h6></div>
+		</div>
+		<div class="rightSideTopNav">
+			<div class="loginSigninDiv"><a href="">LOGIN/SIGN UP</a></div>
+			<div class="trainerDiv"><a href="">TRAINER?</a></div>
+		</div>
+	</nav> */
+
+
+
+/* Navagation Div */
+.topNav {
+	width: 100%;
+	height: 80px;
+
+}
+/* Navagation Left Part */
+.leftSideTopNav {
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	top: 34px;
+	
+}
+
+.trainersVaultDiv {
+	display: inline-block;
+	color: #ffba00;
+	font-size: 25px;
+}
+
+
+.hrVertical {
+	border-left:1px solid #5f5e5e;
+	height:13px; 
+	display: inline-block;
+	margin: 0px 5px 0px 5px;
+	position: relative;
+	top: 1px;
+
+}
+
+
+.shopAtDiv {
+	display: inline-block;	
+	color: #5f5e5e;
+
+}
+
+
+.DD {
+	font-weight: bolder;
+}
+
+
+
+/* Navagation Right Part */
+
+.rightSideTopNav {
+	position: relative;
+	right: 25px;
+	top: 25px;
+	float: right;
+	display: inline-block;
+}
+
+.loginSigninDiv {
+	display: inline-block;
+
+}
+
+.loginSigninDiv a {
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-right: 20px;
+	word-spacing: px;
+}
+
+.trainerDiv {
+	display: inline-block;
+	border: 1px solid #ffba00;
+	padding: 10px;
+	margin: 0px 5px 0px 10px;
+}
+
+.trainerDiv a {
+	text-decoration: none;
+	color: #ffba00;
+}
+
+
+/* MAIN TEXT LETS GET MOVING! */
+.superMainDiv {
+	width: 100%;
+	height: 500px;
+}
+
+.letsGetItOnDiv {
+	position: relative;
+	left: 150px;
+	color: #fff;
+}
+
+.letsGetItOnClass {
+	font-size: 55px;
+	font-weight: bolder;
+}
+
+.twoMainButtonsDiv {
+	position: relative;
+	left: 150px;
+	width: 300px;
+	top: 30px;
+}
+
+.pickCityDiv {
+	margin-top: 20px;
+	display: inline-block;
+	border: 1px solid #ffba00;
+}
+
+.mainDivParagraph {
+	margin-top: 30px;
+}
+
+.anywhereText{
+	color: #ffba00;
+	font-size: 15px;
+}
+
+.pickCityDiv h5 {
+	color: #ffba00;
+	padding: 13px;
+}
+
+.chooseTrainerDiv {
+	display: inline-block;
+	border: 1px solid #ffba00;
+}
+
+.chooseTrainerDiv h5 {
+	color: #000;
+	background-color: #ffba00;
+	padding: 13px;
+	padding: 13px;
+}
+
+/* PAGE 2!!!! */
+.itsSimpleMainDiv {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 91px;
+}
+
+.itsSimpleDiv {
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+
+.threeSectionMainDivs {
+	/* background-color: red; */
+	position: relative;
+	top: 130px;
+	width: 100%;
+	height: 310px;
+}
+
+.threeSectionMain {
+	text-align: center;
+}
+
+.firstDiv {
+	display: inline-block;
+	width: 250px;
+	color: #fff;
+	margin: 0px 10px 0px 10px;
+	/* position:  relative; */
+	/* right: 90px; */
+}
+
+.runIconDiv {
+		height: 70px;
+		width: 70px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		/* position: relative; */
+		/* left: 140px; */
+		/* text-align: center; */
+}
+
+	.runIcon {
+		background-image: url(../icons/runningMan.jpg);
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+.PDivOne {
+	margin-top: 25px;
+}
+
+.secondDiv {
+	display: inline-block;
+	width: 250px;
+	color: #fff;
+	margin: 0px 50px 0px 50px;
+	/* margin: 0 auto; */
+}
+
+.calenderIconDiv {
+		height: 70px;
+		width: 70px;
+		/* margin-bottom: 40px; */
+		margin: 0 auto;
+		position: relative;
+		/* left: 140px; */
+		bottom: 30px;
+}
+
+	.calenderIcon {
+		background-image: url(../icons/calenderIcon.jpg);
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+
+.thirdDiv {
+	display: inline-block;
+	width: 250px;
+	position: relative;
+	bottom: 37px;
+	color: #fff;
+	margin: 0px 10px 0px 10px;
+}
+
+.PDivTwo {
+	margin-top: 25px;
+}
+
+
+.weightsIconDiv {
+		height: 70px;
+		width: 70px;
+		margin-bottom: 30px;
+		margin: 0 auto;
+		position: relative;
+		/* left: 140px; */
+		bottom: 25px;
+}
+
+	.weightsIcon {
+		background-image: url(../icons/weightsIcon.png);
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+
+.PDivThree {
+	margin-top: 25px;
+}
+
+.PDivThree p {
+	position: relative;
+	top: 6px;
+}
+
+/* BACKGROUND 3!!! */
+.lessonOneMainDiv {
+	height: 300px;
+	width: 100%;
+	position: relative;
+	top: 125px;
+}
+
+.lessonHFiveDiv {
+	text-align: center;
+	color: #fff;
+}
+
+.itsNotWhoYouAre {
+	position: relative;
+	top: 20px;
+	margin: 0 auto;
+	color: #fff;
+	border: 2px solid #fff;
+	width: 600px;
+	padding: 20px;
+	text-align: center;
+}
+
+.superMainDivbgFour {
+    /* background-color: red; */
+    width: 100%;
+    height: 676px;
+}
+
+.leftSideWorkoutSession {
+    display: inline-block;
+    /* background-color: green; */
+    width: 550px;
+    border: 1px solid #black;
+    border: 1px solid #black;
+    border:  1px solid #000;
+}
+
+.firstDivWorkout h3 {
+	color: #000;
+	font-size: 20px;
+}
+
+.rightSideWorkoutSession {
+    display: inline-block;
+    float: right;
+    /* background-color: orange; */
+    width: 500px;
+    height: 415px;
+    border: 1px solid #000;
+}
+
+
+.pParagraphOne {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.videoOneDivs {
+    /* width: 150px; */
+    /* height: 30px; */
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    /* background-color: white; */
+    border: 1px solid black;
+}
+
+
+
+/* BACKGROUNDS */
+
+
+
+.bg1 {
+	background-image: url(../bg/1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 670px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	postion: relative;
+}
+
+/* BACKGROUND LEVEL 5! */
+
+/* <div class="trademarkQuote"><div class="trademarkQuoteText"></div></div> */
+
+.trademarkQuote {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	top: 10px;
+}
+
+.trademarkQuoteText {
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+}
+
+.SuperMainPhotoGallery {
+	width: 100%;
+	height: 900px;
+	position: relative;
+	/* top: 0px; */
+	/* bottom: 10px; */
+}
+
+.MainPhotoGalleryWrapDiv {
+	width: 1300px;
+	height: 1200px;
+	position: relative;
+	margin: 0 auto;
+	top: 15px;
+	/* bottom: 10px; */
+	/* background-color: green; */
+	position: relative;
+}
+
+.firstPhotos {display: inline-block;width: 240px;height: 250px;border: 1px solid black;position: relative;bottom: 210px;}
+.pictureOneGallery{ background-image: url(../photoGallery/1.png); background-size: cover; height: 100%; width: 100%; }
+
+.secondPhotos {display: inline-block;width: 240px;height: 250px;border: 1px solid black;position: relative;bottom: 210px;}
+.pictureTwoGallery{ background-image: url(../photoGallery/2.png); background-size: cover; height: 100%; width: 100%; }
+
+.thirdPhoto {display: inline-block;width: 230px;height: 505px;border: 1px solid black;position:  relative;top: 45px;}
+.pictureThreeGallery{ background-image: url(../photoGallery/3.png); background-size: cover; height: 100%; width: 100%; }
+
+.fourthPhoto {display: inline-block;width: 530px;height: 250px;border: 1px solid black;position: relative;bottom: 210px;}
+.pictureFourGallery{ background-image: url(../photoGallery/4.png); background-size: cover; height: 100%; width: 100%; }
+
+.fivePhoto {display: inline-block;/* width: 365px; *//* height: 180px; */border: 1px solid black;position: relative;bottom: 455px;width: 485px;height: 250px;}
+.pictureFiveGallery{ background-image: url(../photoGallery/5.png); background-size: cover; height: 100%; width: 100%; }
+
+.sixPhoto {display: inline-block;width: 250px;height: 250px;border: 1px solid black;position: relative;left: 235px;bottom: 460px;}
+.pictureSixGallery{ background-image: url(../photoGallery/6.png); background-size: cover; height: 100%; width: 100%; }
+
+.sevenPhoto {display: inline-block;width: 275px;height: 498px;border: 1px solid black;position:  relative;top: px;left: 235px;bottom: 210px;/* float: right; */}
+.pictureSevenGallery{ background-image: url(../photoGallery/7.png); background-size: cover; height: 100%; width: 100%; }
+
+.eightPhoto {display: inline-block;/* width: 180px; *//* height: 180px; */height: 245px;border: 1px solid black;/* float: left; */position: relative;right: 535px;bottom: 210px;width: 230px;}
+.pictureEightGallery{ background-image: url(../photoGallery/8.png); background-size: cover; height: 100%; width: 100%; }
+
+.ninePhoto {display: inline-block;/* width: 380px; *//* height: 180px; */border: 1px solid black;position: relative;/* left: 88px; */bottom: 465px;width: 485px;height: 250px;}
+.pictureNineGallery{ background-image: url(../photoGallery/9.png); background-size: cover; height: 100%; width: 100%; }
+
+.tenPhoto {display: inline-block;/* width: 180px; */width: 250px;/* height: 180px; */height: 247px;border: 1px solid black;position: relative;left: 236px;bottom: 464px;}
+.pictureTenGallery{ background-image: url(../photoGallery/10.png); background-size: cover; height: 100%; width: 100%; }
+
+
+/* BACKGROUND LEVEL 6!! */
+/* <div class="firstTextDiv"><h5 class="firstTextStyle">COLLIN DOMINGO</h5></div> */
+.firstTextDiv {
+	position: relative;
+	top: 40px;
+	width: 100%;
+	height: 50px;
+}
+
+.firstTextStyle {
+	text-align: center;
+	font-size: 20px;
+	color: #ffba00;
+}
+
+/* TEXT AREA */
+/* 	<div class="footerBigTextDiv">
+		<div class="BIGTEXTDIV"><h1>I AM THE BEST FITNESS TRAINER IN AMERICAN CANYON!</h1></div>
+		<div class="paragraphUnderBigText"><h2>PROVE ME WRONG?</h2></div>
+	</div> */
+
+.footerBigTextDiv {
+	position: relative;
+	top: 130px;
+	right: 70px;
+	width: 100%;
+	height: 350px;
+
+}
+
+.BIGTEXTDIV {
+	height: 250px;
+	width: 500px;
+	float: right;
+}
+
+.BIGTEXTDIV h1 {
+	font-size: 40px;
+}
+
+.paragraphUnderBigText {
+ 	position: relative;
+ 	margin-top: 15px;
+ 	font-size: 15px;
+}
+
+
+
+/* LEVEL 6 BLACK AREA */
+/* 	<footer>
+		<div class="footerNav">
+			<div class="footerABOUT"><a href=""></a>ABOUT</div>
+			<div class="footerHELP"><a href=""></a>HELP</div>
+			<div class="footerBLOG"><a href=""></a>BLOG</div>
+			<div class="footerTERMS"><a href=""></a>TERMS</div>
+		</div>		
+			<div class="rightsDiv"><h6>COPYRIGHT &copy; 2017 COLLIN DOMINGO, INC. ALL RIGHTS RESERVED.</h6></div>
+			<div class="collinFooterName"><h6>COLLIN DOMINGO&trade;</h6></div>
+	</footer> */
+
+.footerNav {
+	width: 100%:
+	height: 130px;
+	position: relative;
+	top: 180px;
+	text-align: center;
+}
+
+.footerNavLinks {
+	color: #fff;
+	width: 400px;
+	margin: 0 auto;
+	/* margin-bottom: 20px; */
+	position:  relative;
+	bottom: 20px;
+}
+
+.footerABOUT {display: inline-block; margin-right: 5px;}
+.footerHELP {display: inline-block; margin-right: 5px;}
+.footerBLOG {display: inline-block; margin-right: 5px;}
+.footerTERMS {display: inline-block; margin-right: 5px;}
+.dotdot {display: inline-block; margin-right: 5px; position: relative; bottom: 5px;}
+
+/* 			<div class="rightsDiv"><h6>COPYRIGHT &copy; 2017 COLLIN DOMINGO, INC. ALL RIGHTS RESERVED.</h6></div>
+			<div class="collinFooterName"><h6>COLLIN DOMINGO&trade;</h6></div> */
+
+.rightsDiv {
+	margin-top: 12px;
+	color: grey;
+}
+
+.collinFooterName {
+	margin-top: 42px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg2 {
+	background-image: url(../bg/2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 472px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+}
+	
+
+.bg3 {
+	background-image: url(../bg/3.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 385px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	overflow: hidden;
+}
+
+.bg4 {
+	background-image: url(../bg/4.jpg);
+	/* background-color: red; */
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 716px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	/* overflow: hidden; */
+}
+
+.bg5 {
+	background-image: url(../bg/5.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 870px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	/* overflow: hidden; */
+	/* background-color: red; */
+}
+
+
+.bg6 {
+	background-image: url(../bg/6.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 711px;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	overflow: visible;
+	/* background-color: red; */
+}
+
+/*MEDIA QUERIES*/
+@media (max-width
